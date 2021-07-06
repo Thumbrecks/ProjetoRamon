@@ -7,20 +7,16 @@ export const styles = StyleSheet.create({
     },
 
     containerRetangulo: {
-         height: 90,
+         height: 50,
         width:  '100%',
         backgroundColor: '#252527',
     },
 
     container: {
-        flex: 1,
         flexDirection: 'row',
-        flexWrap: 'wrap',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        margin: 45,
-        width: '92%',
-        left: '80%',
+        height: 50,
+        width:  '100%',
+        backgroundColor: '#252527',
     },
 
     input: {
@@ -50,12 +46,10 @@ export const styles = StyleSheet.create({
         flexWrap: 'wrap',
         justifyContent: 'space-between',
         alignItems: 'center',
-        margin: 4.2,
+        margin: 13,
+        marginLeft: 17,
     },
 
-    FonteTelecine: {
-        fontSize: 30,
-    },
 
     FonteLançamentos: {
         
@@ -86,6 +80,26 @@ export const styles = StyleSheet.create({
     series: {
         flexDirection: 'row',
       flex:1,
+    },
+
+    FonteTele: {
+        fontSize: 20,
+        alignSelf: 'center',
+        marginLeft: 117,
+        color: '#fffffd', 
+        marginTop: 1,
+        fontWeight: '700',
+
+    },
+
+    FonteCine: {
+        color: '#ec1831',
+        fontSize: 20,
+        alignSelf: 'center',
+        marginLeft: 0.8,
+        marginTop: 1,
+        fontWeight: '700',
+       
     },
 });
  
